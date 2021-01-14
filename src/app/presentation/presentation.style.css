@@ -1,0 +1,61 @@
+canvas
+{
+    width: 100%;    
+
+    background-color: #e4eded;
+}
+
+.main_nav
+{	    
+    display: flex;
+    padding: 10px;
+
+    border-bottom: 1px solid rgba(211, 211, 211, 0.5);
+}
+
+.brand
+{    
+    margin-right: 10px;     
+}
+
+.presentation_name
+{
+    font-weight: 400;
+    font-size: 20px;
+
+    color: #777;
+}
+
+.toolbar
+{
+    padding: 10px 10px 10px 37px;
+    
+    border-bottom: 1px solid rgba(211, 211, 211, 0.5);
+
+    display: flex;
+    justify-content: left;
+}
+
+.tool
+{    
+    display: block;
+    margin: auto 10px auto 0;    
+}
+
+.working_field
+{
+    display: flex;
+}
+
+.filmstrip
+{
+	display: flex;
+    flex-direction: column;
+    justify-content: top;
+    
+    width: 15%;
+    max-width: 370px;    
+    
+    padding: 10px;
+    outline: 1px solid rgba(211, 211, 211, 0.5);
+}
